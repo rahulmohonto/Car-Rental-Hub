@@ -10,6 +10,9 @@ import microBus from '../../../images/microbus.png';
 const Services = () => {
     return (
         <>
+            <div className="flex justify-center items-center">
+                <h2 className="lg:text-5xl md:text4-xl sm:text-3xl text-2xl font-indigo mb-14 mt-14 bg-purple-400 shadow-lg rounded"> Rentals Options & Services </h2></div>
+
             <div id="services" className="service-card">
                 <img src={normalCar} alt="" className="h-full rounded mb-20 shadow" />
                 <div className="card-header shadow-lg">

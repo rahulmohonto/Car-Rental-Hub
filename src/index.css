@@ -8,9 +8,13 @@
 
 }
 .card-header{
-   @apply flex flex-col justify-center items-center text-indigo-600 group-hover:text-gray-900;
+   @apply flex flex-col justify-center items-center text-indigo-600 group-hover:text-red-900;
 }
 .card-head{
    @apply text-yellow-700  text-4xl mb-2;
    @apply bg-yellow-500 rounded text-3xl hover:bg-green-400 transition ease-in flex items-center animate-bounce scale-110;
+}
+
+.social-media .icon{
+   @apply h-10 w-10 p-2.5 bg-blue-400 border-2 border-yellow-400 rounded-2xl;
 }

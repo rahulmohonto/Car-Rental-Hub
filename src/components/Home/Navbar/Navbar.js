@@ -21,8 +21,8 @@ const Navbar = ({ toggle }) => {
             <div className="pr-8 md:block hidden">
                 <Link to="/" className="p-4">Home</Link>
                 <a href="#services" className="p-4">Services</a>
-                <Link to="/about" className="p-4">About</Link>
-                <Link to="/contact" className="p-4">Contact</Link>
+                <a href="#about" className="p-4">About</a>
+                <a href="#contact" className="p-4">Contact</a>
             </div>
         </nav>
     );

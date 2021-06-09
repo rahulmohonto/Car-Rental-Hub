@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 import Home from './components/Home/Home/Home';
-import Footer from './components/Home/Footer/Footer';
 import Dropdown from './components/Home/Navbar/Dropdown';
 
 function App() {
@@ -31,7 +30,8 @@ function App() {
       <Dropdown isOpen={isOpen} toggle={toggle} ></Dropdown>
       <Home toggle={toggle} />
 
-      <Footer />
+
+      <footer className="text-center text-primary"> <small>Rent CarHub &copy; Copyright {(new Date()).getFullYear()}. All Rights Reserved</small> </footer>
     </>
   );
 }
